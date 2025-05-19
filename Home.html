@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+
+        
+        div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+} 
+
+body {
+  font-family: courier, Luminari;
+}
+
+body {
+  color: rgb(255, 255, 255);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.button {
+  background-color: #ff3c0077; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.button1 :hover {
+  background-color: #ffae00b2; 
+  color: black; 
+  border: 2px solid #04aa6d00;
+}
+
+
+
+
+        body {margin:0;}
+        
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #ff3c0077;
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #ffae00b2;
+        }
+      
+        
+        body {
+  background-color: #ffc547;
+}
+        </style>
+        </head>
+        <body>
+        
+        <ul>
+          <li><a class="active" href="Home.html">Home</a></li>
+          <li><a href="LifeDrawings.html">Life Drawings</a></li>
+          <li><a href="Animation.html">Animations</a></li>
+          <li><a href="Artwork.html">Artwork</a></li>
+          <li><a href="About Me.html">About Me</a></li>
+        </ul>
+        
+
+        <div style="padding:20px;margin-top:30px;background-color:#ffc547;height:1500px;">
+          
+          
+          
+          
+            <div class="container">
+                <img src="images\design\logo.png" alt="logo" style="width:50%;">
+                <div class="centered"> <h1>Silly Content (Art)<h1> </div>
+                    <div class="bottom">
+                        <h2>welcome to my portfolio page</h2>
+                        </div>
+              </div>
+
+
+
+
+             <div class="row">
+                <div class="column">
+                  <img src="images\design\1.jpg" alt="1" style="width:100%">
+                </div>
+             <div class="row">
+                <div class="column">
+                  <img src="images\design\2.jpg" alt="2" style="width:100%">
+                </div>
+             <div class="row">
+                <div class="column">
+                  <img src="images\design\3.jpeg" alt="3" style="width:100%">
+                </div>
+            <div class="row">
+                <div class="column">
+                  <img src="images\design\4.jpeg" alt="4" style="width:100%">
+                </div>
+                
+            
+            </div>
+
+        <div class="a">
+          <button class="button button1"><a href="LifeDrawings.html"> see more of my Lifedrawing</button>
+        </div>
+
+        <div class="row">
+            <div class="column">
+              <img src="images\design\5.jpg" alt="5" style="width:100%">
+            </div>
+         <div class="row">
+            <div class="column">
+              <img src="images\design\6.png" alt="6" style="width:100%">
+            </div>
+         <div class="row">
+            <div class="column">
+              <img src="images\design\7.png" alt="7" style="width:100%">
+            </div>
+        <div class="row">
+            <div class="column">
+              <img src="images\design\8.png" alt="8" style="width:100%">
+            </div>
+        
+            <div class="a"><button class="button button1"><a href="Artwork.html"> see more of my Artwork</button></div>
+
+
+ <div class="a">
+    <video width=80% controls autoplay>
+     <source src="videos/reel.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+   </video>
+</div>
+
+<div class="a"><button class="button button1"><a href="Animation.html"> see more of my Animation</button></div>
+
+        </body>
+</html>
